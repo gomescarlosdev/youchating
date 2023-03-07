@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">YouChating</string>
+
+    <!--Login's strings -->
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_do_not_have_an_account_yet">Don\'t have an account yet?</string>
+    <string name="login_register_with_youchating">Register with YouChating</string>
+    <string name="login_forgotten_password">Forgotten password?</string>
+    <string name="login_sign_in">Sign In</string>
+
+
 </resources>

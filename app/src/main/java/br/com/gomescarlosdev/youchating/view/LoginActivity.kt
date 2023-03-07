@@ -2,17 +2,23 @@ package br.com.gomescarlosdev.youchating.view
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import br.com.gomescarlosdev.youchating.databinding.ActivityMainBinding
+import br.com.gomescarlosdev.youchating.databinding.ActivityLoginBinding
 
-class MainActivity : AppCompatActivity() {
+class LoginActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivityLoginBinding
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
-    }
 
+        binding = ActivityLoginBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+
+
+        
+
+
+    }
 }
